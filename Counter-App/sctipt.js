@@ -6,17 +6,27 @@ let display = document.querySelector("#display")
 
 let count = 0;
 
+function updateDisplay() {
+    display.textContent = count;
+    if (count < 0) {
+        display.style.color = "red";
+    } else {
+        display.style.color = "#00ff95";
+    }
+}
+
+
 addBtn.addEventListener("click" , function () {
     count += 1;
-    display.textContent = count;
+    updateDisplay()
 })
 
 subBtn.addEventListener("click", () =>{
     count -= 1;
-    display.textContent = count;
+    updateDisplay()
 })
 
 restBtn.addEventListener("click", () => {
     count = 0;
-    display.textContent = count
+    updateDisplay()
 })
