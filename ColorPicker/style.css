@@ -1,0 +1,88 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Centering */
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    color: #666;
+}
+
+h2 span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: normal;
+}
+
+/* Color Buttons */
+.button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+    /* border-radius: 50%; */
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    line-height: 60px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+    user-select: none;
+    transition: transform 0.2s, border 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    border: 2px solid #333;
+}
+
+/* Individual Color Styling */
+#grey {
+    background-color: grey;
+}
+
+    #white {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+}
+
+#blue {
+    background-color: royalblue;
+}
+
+#yellow {
+    background-color: goldenrod;
+}
