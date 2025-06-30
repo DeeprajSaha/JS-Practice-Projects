@@ -1,0 +1,89 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  color: #333;
+}
+
+/* Form Elements */
+form p {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  font-weight: 600;
+  color: #444;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: calc(100% - 130px);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result Section */
+#results {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Weight Guide */
+#weight-guide p {
+  margin: 0.3rem 0;
+  color: #555;
+}
