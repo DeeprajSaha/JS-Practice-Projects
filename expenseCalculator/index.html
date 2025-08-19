@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="main-container container-fluid min-vh-100">
+
+    <div class="container">
+
+        <div class="row p-4">
+            <div class="col-md-6 offset-md-3">
+            <div class="card p-3 shadow">
+                <h3 class="text-center">Expense Calculator</h3>
+
+                <input type="text" class="form-control mb-2" id="expenseName" placeholder="Enter Expense Name">
+
+                <input type="number" class="form-control mb-2" id="expenseAmount" placeholder="Enter Amount">
+
+                <div class="d-flex justify-content-end mt-3">
+                    <button type="button" class="btn btn-success" id="addBtn">Add</button>
+                </div>
+
+                <hr>
+                
+                    <ul id="expenseList"></ul>
+
+                    <ul id="totalAmount"></ul>
+                </div>
+                </div>
+            </div>
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
